@@ -1,0 +1,18 @@
+.footer {
+height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.footer__content {
+    width: 104px;
+    height: 16px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #212121;
+    opacity: 70%;
+}
