@@ -1,40 +1,74 @@
 .card {
-    max-width: 413px;
+  max-width: 413px;
 }
 
 .card__image {
-    width: 413px;
-    height: 413px;
-    object-fit: cover;
-    display: block;
-    border-radius: 10px;
+  width: 413px;
+  height: 413px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
 }
 
 .card__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0 0;
 }
 
 .card__title {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #212121;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #212121;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .card__button {
-    background-image: url(../images/Like\ Icon.svg);
-    height: 20px;
-    width: 23px;
-    border: none;
-    background-color: transparent;
-    opacity: 0.4;
+  background-image: url(../images/Like\ Icon.svg);
+  height: 20px;
+  width: 23px;
+  border: none;
+  background-color: transparent;
+  opacity: 0.4;
 }
 
 .card__button:hover {
-    opacity: 1;
-    color: #212121;
-    border: 2px;
+  opacity: 1;
+  color: #212121;
+  border: 2px;
+}
+
+@media screen and (max-width: 627px) {
+  .card {
+    margin: 0 auto;
+    max-width: 288px;
+  }
+  .card__image {
+    height: 288px;
+    width: 288px;
+  }
+
+  .card__content {
+    height: 18px;
+    font-size: 16px;
+    line-height: 1;
+    justify-content: space-between;
+    align-items: normal;
+  }
+
+  .card__title {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .card__button {
+    height: 18px;
+}
 }
