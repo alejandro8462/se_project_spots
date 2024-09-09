@@ -14,3 +14,4 @@ Mobile View: ![alt text](<Spots Mobile View.png>)
 
 Future: I'm really excited to move onto the next lesson so that I can start learning and using Javascript. 
 
+Live Link: https://alejandro8462.github.io/se_project_spots/
