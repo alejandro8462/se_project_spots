@@ -10,9 +10,9 @@ There is new functionality added with this project that past projects were sever
 Technology: 
 To accomplish this new responsiveness to the website, I used a lot of new technologies like font faces, media queries, and most importantly, grid. These technologies were more challenging but once I got the hang of them, they were pretty simple, maybe not easy, but simple. The most challenging part was applying the grid to the cards and then translating them to mobile view because I realized I had to apply I used some of the technologies from the last projects like flexbox and I had really struggled with these before, but now that I have some more practice with them, I was able to use them a lot quicker and easier, like in the header and footer.
 
-Screenshots: Desktop View: ![alt text](<Spots Desktop View.png>)
-Tablet View: ![alt text](<Spots Tablet View.png>) 
-Mobile View: ![alt text](<Spots Mobile View.png>)
+Screenshots: Desktop View: https://drive.google.com/file/d/1hcSlbEpu8Hq1LuHrn-Gn3i2u7S73c2Fn/view?usp=drive_link
+Tablet View: https://drive.google.com/file/d/1_anPuUP1tUdfzLhwq8QalZHkRUN1obTe/view?usp=drive_link
+Mobile View: https://drive.google.com/file/d/1hcSlbEpu8Hq1LuHrn-Gn3i2u7S73c2Fn/view?usp=drive_link
 
 Future: I'm really excited to move onto the next lesson so that I can start learning and using Javascript. 
 
