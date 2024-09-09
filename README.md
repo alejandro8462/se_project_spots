@@ -2,6 +2,8 @@
 
 Project Name: TripleTen Spots
 
+Video Link: https://drive.google.com/file/d/1sVxovEQkXBv6livSGj8naYD1K5suzLp1/view?usp=sharing
+
 Functionality: 
 There is new functionality added with this project that past projects were severely lacking. With this new project, Spots, we now have the functionality of being able to view the website in 1440px, desktop view, like before but now we can also view this website in smaller, mobile view from 320px and everything in between. This means we can view the website from virtually any modern, popular, conventional device. While adding this functionality, I felt more like I was creating more of a real, public website that would be used by a lot of people. I felt more like a real web developer. 
 
@@ -14,4 +16,4 @@ Mobile View: ![alt text](<Spots Mobile View.png>)
 
 Future: I'm really excited to move onto the next lesson so that I can start learning and using Javascript. 
 
-Live Link: https://alejandro8462.github.io/se_project_spots/
+Live Link: https://alejandro8462.github.io/se_project_spots
