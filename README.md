@@ -1,21 +1,16 @@
-# Project 3: Spots
 
-### Overview  
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+Project Name: TripleTen Spots
+
+Functionality: 
+There is new functionality added with this project that past projects were severely lacking. With this new project, Spots, we now have the functionality of being able to view the website in 1440px, desktop view, like before but now we can also view this website in smaller, mobile view from 320px and everything in between. This means we can view the website from virtually any modern, popular, conventional device. While adding this functionality, I felt more like I was creating more of a real, public website that would be used by a lot of people. I felt more like a real web developer. 
+
+Technology: 
+To accomplish this new responsiveness to the website, I used a lot of new technologies like font faces, media queries, and most importantly, grid. These technologies were more challenging but once I got the hang of them, they were pretty simple, maybe not easy, but simple. The most challenging part was applying the grid to the cards and then translating them to mobile view because I realized I had to apply I used some of the technologies from the last projects like flexbox and I had really struggled with these before, but now that I have some more practice with them, I was able to use them a lot quicker and easier, like in the header and footer.
+
+Screenshots: Desktop View: ![alt text](<Spots Desktop View.png>)
+Tablet View: ![alt text](<Spots Tablet View.png>) 
+Mobile View: ![alt text](<Spots Mobile View.png>)
+
+Future: I'm really excited to move onto the next lesson so that I can start learning and using Javascript. 
+
