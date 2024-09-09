@@ -43,6 +43,7 @@
   opacity: 1;
   color: #212121;
   border: 2px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
