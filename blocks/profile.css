@@ -18,12 +18,13 @@
 
 .profile__name {
   margin: 0;
+  color: #212121;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
   max-width: 420px;
-    text-overflow: ellipsis;
+  text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -32,12 +33,14 @@
 
 .profile__description {
   margin: 12px 0 0;
+  color: #212121;
+  opacity: 70%;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 1;
   max-width: 420px;
-    text-overflow: ellipsis;
+  text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -48,10 +51,10 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 1;
   margin-top: auto;
   border: none;
-  background-color: #fcf5e5;
+  background-color: transparent;
   color: #212121;
   opacity: 70%;
   display: flex;
@@ -60,14 +63,14 @@
 
 .profile__edit-button:hover {
   cursor: pointer;
-  color: black;
+  opacity: 1;
 }
 
 .profile__post-button {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 1;
   margin-left: auto;
   align-self: end;
   display: flex;
@@ -77,10 +80,11 @@
   max-width: 149px;
   max-height: 52px;
   background-color: #212121;
-  color: #fff;
+  color: #fcf5e5;
   white-space: nowrap;
   padding: 20px 32px;
   border-radius: 6px;
+  border: none;
 }
 
 .profile__post-button:hover {

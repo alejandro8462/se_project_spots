@@ -20,7 +20,7 @@
 .card__title {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   font-weight: 500;
   color: #212121;
   text-overflow: ellipsis;
@@ -41,8 +41,6 @@
 
 .card__button:hover {
   opacity: 1;
-  color: #212121;
-  border: 2px;
   cursor: pointer;
 }
 
@@ -57,7 +55,6 @@
   }
 
   .card__content {
-    height: 18px;
     font-size: 16px;
     line-height: 1;
     justify-content: space-between;
@@ -68,8 +65,4 @@
     font-size: 16px;
     line-height: 1;
   }
-
-  .card__button {
-    height: 18px;
-}
 }
