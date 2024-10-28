@@ -85,13 +85,13 @@ function getCardElement(data) {
     previewModalImage.alt = data.name;
   })
 
-  previewModalCloseButton.addEventListener("click", () => {
-    closeModal(previewModal);
-  })
-
-  return cardElement;
+   return cardElement;
 }
 
+previewModalCloseButton.addEventListener("click", () => {
+    closeModal(previewModal);
+  })
+  
 function openModal(modal) {
   modal.classList.add("modal_opened");
 }
@@ -128,6 +128,8 @@ function handleNewCardSubmit(evt) {
   const inputValues = { name: cardNameInput.value, link: cardLinkInput.value };
   const cardEl = getCardElement(inputValues);
   cardsList.prepend(cardEl);
+
+ evt.target.reset();
 
   closeModal(cardModal);
 }
