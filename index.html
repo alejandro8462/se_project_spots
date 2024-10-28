@@ -40,10 +40,12 @@
           <ul class="cards__list">
             <template id="card__template">
               <li class="card">
+                <button class="delete__button" type="button"></button>
                 <img src="" alt="" class="card__image" />
                 <div class="card__content">
                   <h2 class="card__title"></h2>
                   <button class="card__button" type="button"></button>
+                
                 </div>
               </li>
             </template>
@@ -83,6 +85,49 @@
           </form>
         </div>
       </div>
+
+      <div class="modal" id="new-card-modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-button">
+            <img src="./images/CloseIcon.svg" alt="close icon" />
+          </button>
+          <h2 class="modal__title">New Post</h2>
+          <form name="new-card" class="modal__form" id = "new-card-form">
+            <label for="new-card-link-input" class="modal__label">
+              Image Link
+              <input
+                type="url"
+                name="link"
+                id="new-card-link-input"
+                class="modal__input"
+                placeholder="Paste a link to the picture"
+              />
+            </label>
+            <label for="new-card-name-input" class="modal__label">
+              Caption
+              <input
+                type="text"
+                name="name"
+                id="new-card-name-input"
+                class="modal__input"
+                placeholder="Type your caption"
+              />
+            </label>
+
+            <button class="modal__submit-button" type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal" id="preview-modal">
+        <div class="modal__content modal__content_preview">
+          <button class="modal__close-button modal__close-button_preview" type="button">
+          </button>
+          <img src="" alt="" class="modal__image" name="link">
+          <p class="modal__caption" name="name" type="text"></p>
+        </div>
+      </div>
+
     </div>
     <script src="scripts/scripts.js" defer></script>
   </body>
