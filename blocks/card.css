@@ -39,6 +39,8 @@
   border: none;
   background-color: transparent;
   opacity: 0.4;
+  background-repeat: no-repeat;
+  object-fit: contain;
 }
 
 .card__button:hover {
