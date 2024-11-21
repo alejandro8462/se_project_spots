@@ -93,6 +93,21 @@ previewModalCloseButton.addEventListener("click", () => {
   closeModal(previewModal);
 });
 
+function handleEscapeKey(event) {
+  if (event.key === "Escape") {
+    const openModal = document.querySelector(".modal_opened");
+    if (openModal) {
+      closeModal(openModal);
+    }
+  }
+}
+
+function handleOverlayClick(event) {
+  if (event.target.classList.contains("modal")) {
+    closeModal(event.target);
+  }
+}
+
 function openModal(modal) {
   modal.classList.add("modal_opened");
 }
@@ -100,6 +115,12 @@ function openModal(modal) {
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
 }
+
+document.addEventListener("keydown", handleEscapeKey);
+const modals = document.querySelectorAll(".modal");
+modals.forEach((modal) => {
+  modal.addEventListener("click", handleOverlayClick);
+});
 
 profileEditButton.addEventListener("click", () => {
   resetValidation(editFormElement, settings);
@@ -124,6 +145,8 @@ cardModalCloseButton.addEventListener("click", () => {
 editFormElement.addEventListener("submit", handleEditFormSubmit);
 
 cardForm.addEventListener("submit", handleNewCardSubmit);
+
+
 
 function handleNewCardSubmit(evt) {
   evt.preventDefault();
