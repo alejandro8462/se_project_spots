@@ -110,10 +110,12 @@ function handleOverlayClick(event) {
 
 function openModal(modal) {
   modal.classList.add("modal_opened");
+  document.addEventListener("keydown", handleEscapeKey);
 }
 
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
+  document.removeEventListener("keydown", handleEscapeKey);
 }
 
 document.addEventListener("keydown", handleEscapeKey);
@@ -134,7 +136,6 @@ editModalCloseButton.addEventListener("click", () => {
 });
 
 newCardButton.addEventListener("click", () => {
-  resetValidation(cardForm, settings);
   openModal(cardModal);
 });
 
