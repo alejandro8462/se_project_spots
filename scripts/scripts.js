@@ -118,7 +118,6 @@ function closeModal(modal) {
   document.removeEventListener("keydown", handleEscapeKey);
 }
 
-document.addEventListener("keydown", handleEscapeKey);
 const modals = document.querySelectorAll(".modal");
 modals.forEach((modal) => {
   modal.addEventListener("click", handleOverlayClick);
